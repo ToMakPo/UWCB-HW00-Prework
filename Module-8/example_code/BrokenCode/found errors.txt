@@ -1,0 +1,34 @@
+BooTheDog.html
+all:        fixed indentation for the whole page
+19:         added h1 tag
+21-34:      removed instructions row leaving only one blank line
+23:         added line break
+28-31:      added p tags to each paragraph
+38:         added link to a tag's href attrebute
+43:         added line break
+47:         added missing angle brackets
+51:         added line break
+82-108:     moved to line 55
+67:         remove line break
+57-68:      moved to line 78
+69-71:      change IDs to match the color indecated by the HTML text
+105-107:    moved to line 80
+84:         added line break
+93:         added line break
+99-103:     add li tags to each row
+108:        added line break
+113:        add an HTML comment with the text "Linking our JavaScript file"
+114:        change the src from "error.js" to "logic.js"
+
+logic.js
+all:        add all of the comments from the working code over but change the text to reflect current project
+4,6,10:     (optional) change the variable name from "booFacts" to "booFactArray" to match format of working code example
+10:         break up the one long string into six smaller comma seperated strings
+15:         put quotation marks around the word "pink"
+22:         fixed indentation
+32:         put quotation marks around the word "click"
+35:         move line up to the end of row 34
+38:         put quotation marks around the word "click"
+
+style.css
+no changes needed

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>Israel Kamakawiwoʻole Fan Site!</title>
+
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Israel Kamakawiwoʻole</h1>
+    <h2>Fan Site!</h2>
+    <img id="display_image" style="width: 560px; height: 315px; object-fit: cover; cursor: pointer;" onclick="play_video()"
+      src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2020/05/20/08/israelkamakawiwoole2005.png?width=1368&height=912&fit=bounds&format=pjpg&auto=webp&quality=70"
+      alt="Bruddah Iz playing for a group"
+    />
+    <iframe id="display_video" class='hidden' width="560" height="315" src="https://www.youtube.com/embed/w_DKWlrA24k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <sup><a id='play_button' style="cursor: pointer;" onclick="play_video()">▶ play video</a></sup>
+    <section>
+      <h3><abbr title="Bio taken from Wikipedia">Bio</abbr></h3>
+      <p>Israel Kaʻanoʻi Kamakawiwoʻole, (Hawaiian for 'the fearless eye, the bold face') also called Bruddah Iz or IZ, was a Native Hawaiian singer-lyricist, musician and Hawaiian sovereignty activist.</p>
+      <p>
+        Born: May 20, 1959<br>
+        Died: June 26, 1997
+      </p>
+      <p>He achieved commercial success outside Hawaii when his album Facing Future was released in 1993. His medley of "Somewhere Over the Rainbow/What a Wonderful World" was released on his albums Ka ʻAnoʻi and Facing Future. It was subsequently featured in several films, television programs and television commercials.</p>
+      <p>Along with his ukulele playing and incorporation of other genres, such as jazz and reggae, Kamakawiwoʻole remains influential in Hawaiian music.</p>
+    </section>
+    
+    <section>
+      <h3>Just a few of his best works.</h3>
+      <ul>
+        <li><a href="https://youtu.be/w_DKWlrA24k" target="_blank">Over the Rainbow</a></li>
+        <li><a href="https://youtu.be/0Lz40KsvO8U" target="_blank">White Sandy Beach</a></li>
+        <li><a href="https://youtu.be/R0xoMhCT-7A" target="_blank">What A Wonderful World</a></li>
+        <li><a href="https://youtu.be/tr5aWs9gErk" target="_blank">In This Life</a></li>
+        <li><a href="https://youtu.be/FpJ879JiXCk" target="_blank">Take Me Home Country Road</a></li>
+        <li><a href="https://youtu.be/xvxFv_Dq_Rw" target="_blank">'Opae E</a></li>
+        <li><a href="https://youtu.be/9N9sfwmM9-Y" target="_blank">Aloha Ka Manini</a></li>
+        <li><a href="https://youtu.be/evzfGbFTr0Q" target="_blank">Hele On To Kauai</a></li>
+      </ul>
+    </section>
+    
+    <br>
+    <a href="https://en.wikipedia.org/wiki/Israel_Kamakawiwo%CA%BBole" target="_blank"><strong>Learn more about Bruddah Iz.</strong></a>
+
+    <script>
+      function play_video() {
+        document.getElementById('display_image').classList.toggle('hidden')
+        document.getElementById('display_video').classList.toggle('hidden')
+        document.getElementById('play_button').classList.toggle('hidden')
+      }
+    </script>
+  </body>
+</html>
